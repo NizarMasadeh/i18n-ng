@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "i18n": {
+    "i18n-ng": {
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
