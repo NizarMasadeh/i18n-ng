@@ -1,0 +1,166 @@
+@use "variables" as *;
+
+.page-content {
+    max-width: $max-width-screen;
+    margin: 0 auto;
+    padding: $spacing-md;
+}
+
+.services-intro {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 30px 0 50px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: $spacing-lg;
+    margin: 50px 0;
+}
+
+.service-card {
+    background: white;
+    border: 2px solid #e9ecef;
+    border-radius: $radius-xl;
+    padding: $spacing-lg;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-color: $primary-color;
+}
+
+.service-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, $primary-color, #28a745, #ffc107, #dc3545);
+}
+
+.service-icon {
+    font-size: 3em;
+    margin: 20px 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card h3 {
+    color: $primary-text;
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+
+.service-card p {
+    color: $secondary-text;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.service-features li {
+    padding: 8px 0;
+    color: #555;
+    position: relative;
+    padding-left: 25px;
+}
+
+.service-features li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.service-price {
+    margin: 25px 0;
+    padding: $spacing-sm;
+    background: $bg-light;
+    border-radius: $radius-md;
+    font-size: 1.1em;
+}
+
+.service-price strong {
+    color: $primary-color;
+    font-size: 1.3em;
+}
+
+.consultation-cta {
+    text-align: center;
+    margin: 80px 0 40px 0;
+    padding: 50px 30px;
+    background: $linear-purple;
+    color: white;
+    border-radius: $radius-xxl;
+}
+
+.consultation-cta h2 {
+    margin-bottom: $spacing-md;
+}
+
+.consultation-cta p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px 0 40px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: $spacing-md;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: $radius-md;
+    font-weight: 500;
+    transition: all 0.3s;
+    min-width: 180px;
+}
+
+.btn-primary {
+    background: white;
+    color: $secondary-color;
+}
+
+.btn-primary:hover {
+    background: $bg-light;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: $secondary-color;
+}

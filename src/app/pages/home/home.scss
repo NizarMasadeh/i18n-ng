@@ -1,0 +1,51 @@
+@use "variables" as *;
+
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: $spacing-md;
+}
+
+.features {
+    margin: 30px 0;
+    padding: $spacing-md;
+    background: $bg-light;
+    border-radius: $radius-md;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.features li:before {
+    content: "✓ ";
+    color: #28a745;
+    font-weight: bold;
+    margin-right: $spacing-xs;
+}
+
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 24px;
+    background: $primary-color;
+    color: white;
+    text-decoration: none;
+    border-radius: $radius-sm;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}

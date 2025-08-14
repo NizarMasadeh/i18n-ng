@@ -1,7 +1,0 @@
-{
-  "locale": "en-US",
-  "translations": {
-    "welcomeMessage": "Welcome to Our Multilingual App",
-    "description": " This is a simple Angular application with server-side rendering and support for English and Arabic languages. "
-  }
-}

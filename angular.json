@@ -39,6 +39,11 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/assets/scss"
+              ]
+            },
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
@@ -48,6 +53,45 @@
           "configurations": {
             "production": {
               "localize": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "production-en": {
+              "localize": [
+                "en-US"
+              ],
+              "outputPath": "dist/en-US",
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kB",
+                  "maximumError": "1MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "4kB",
+                  "maximumError": "8kB"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "production-ar": {
+              "localize": [
+                "ar-JO"
+              ],
+              "outputPath": "dist/ar-JO",
+              "index": "src/index.ar.html",
               "budgets": [
                 {
                   "type": "initial",
@@ -74,7 +118,8 @@
               "localize": [
                 "ar-JO"
               ],
-              "outputPath": "dist/ar-JO"
+              "outputPath": "dist/ar-JO",
+              "index": "src/index.ar.html"
             }
           },
           "defaultConfiguration": "production"
@@ -95,7 +140,10 @@
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
+          "builder": "@angular/build:extract-i18n",
+          "options": {
+            "outputPath": "src/locale"
+          }
         },
         "test": {
           "builder": "@angular/build:karma",

@@ -1,0 +1,125 @@
+@use "variables" as *;
+
+.page-content {
+     max-width: 1000px;
+     margin: 0 auto;
+     padding: $spacing-md;
+ }
+
+ .contact-intro {
+     text-align: center;
+     margin: 20px 0 40px 0;
+     font-size: 1.1em;
+     line-height: 1.6;
+ }
+
+ .contact-container {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: $spacing-xl;
+     margin: 40px 0;
+ }
+
+ @media (max-width: 768px) {
+     .contact-container {
+         grid-template-columns: 1fr;
+     }
+ }
+
+ .contact-info {
+     background: $bg-light;
+     padding: $spacing-lg;
+     border-radius: $radius-lg;
+ }
+
+ .info-item {
+     margin: 25px 0;
+ }
+
+ .info-item h3 {
+     color: $primary-color;
+     margin-bottom: 8px;
+     font-size: 1.1em;
+ }
+
+ .info-item p {
+     margin: 5px 0;
+     color: $secondary-text;
+ }
+
+ .contact-form {
+     background: white;
+     padding: $spacing-lg;
+     border: 2px solid #e9ecef;
+     border-radius: $radius-lg;
+ }
+
+ .form-group {
+     margin: 20px 0;
+ }
+
+ .form-group label {
+     display: block;
+     margin-bottom: 8px;
+     font-weight: 500;
+     color: $primary-text;
+ }
+
+ .form-group input,
+ .form-group textarea {
+     width: -webkit-fill-available;
+     padding: 12px;
+     border: 2px solid #e9ecef;
+     border-radius: $radius-sm;
+     font-size: 16px;
+     transition: border-color 0.3s;
+ }
+
+ .form-group input:focus,
+ .form-group textarea:focus {
+     outline: none;
+     border-color: $primary-color;
+ }
+
+ .btn-primary {
+     width: 100%;
+     padding: $spacing-sm;
+     background: $primary-color;
+     color: white;
+     border: none;
+     border-radius: $radius-sm;
+     font-size: 16px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: background 0.3s;
+ }
+
+ .btn-primary:hover:not(:disabled) {
+     background: #0056b3;
+ }
+
+ .btn-primary:disabled {
+     background: #ccc;
+     cursor: not-allowed;
+ }
+
+ .back-navigation {
+     text-align: center;
+     margin: 40px 0;
+ }
+
+ .back-navigation a {
+     display: inline-block;
+     margin: 0 $spacing-sm;
+     color: $primary-color;
+     text-decoration: none;
+     padding: 8px 16px;
+     border: 1px solid $primary-color;
+     border-radius: $radius-xs;
+     transition: all 0.3s;
+ }
+
+ .back-navigation a:hover {
+     background: $primary-color;
+     color: white;
+ }

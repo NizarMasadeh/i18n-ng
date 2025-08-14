@@ -2,17 +2,26 @@
   "name": "i18n",
   "version": "0.0.0",
   "scripts": {
+    "preinstall": "node ./scripts/check-node-version.js",
     "ng": "ng",
     "start": "ng serve",
+    "start:ar": "ng serve --configuration=ar-JO",
     "build": "ng build",
     "build:prod": "ng build --configuration=production --output-path=./dist",
+    "build:en": "ng build --configuration=production-en",
+    "build:ar": "ng build --configuration=production-ar",
+    "build:i18n": "npm run build:en && npm run build:ar",
+    "start:prod": "node dist/server/server.mjs",
+    "extract-i18n": "ng extract-i18n",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:i18n": "node dist/i18n/server/server.mjs",
-    "start:prod": "node dist/server/server.mjs"
+    "test": "ng test"
+  },
+  "engines": {
+    "node": "22.16.x"
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^20.1.7",
     "@angular/common": "^20.0.0",
     "@angular/compiler": "^20.0.0",
     "@angular/core": "^20.0.0",

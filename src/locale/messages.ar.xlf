@@ -1,14 +1,355 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ar">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ar-JO">
     <body>
-      <trans-unit id="welcomeMessage" datatype="text">
-        <source>Welcome to Our Multilingual App</source>
-        <target>مرحبًا بكم في تطبيقنا متعدد اللغات</target>
+      <!-- Language Switcher -->
+      <trans-unit id="switchToArabic" datatype="text">
+        <source>العربية</source>
+        <target>العربية</target>
       </trans-unit>
-      <trans-unit id="description" datatype="text">
-        <source>This is a simple Angular application with server-side rendering and support for English and Arabic languages.</source>
-        <target>هذا تطبيق أنجولار بسيط مع تقديم من جانب الخادم ودعم للغة الإنجليزية والعربية.</target>
+      <trans-unit id="switchToEnglish" datatype="text">
+        <source>English</source>
+        <target>English</target>
+      </trans-unit>
+
+      <!-- Navigation -->
+      <trans-unit id="nav.brand" datatype="text">
+        <source>NG-AR</source>
+        <target>أنقولر العربي</target>
+      </trans-unit>
+      <trans-unit id="nav.home" datatype="text">
+        <source>Home</source>
+        <target>الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="text">
+        <source>About</source>
+        <target>من نحن</target>
+      </trans-unit>
+      <trans-unit id="nav.services" datatype="text">
+        <source>Services</source>
+        <target>الخدمات</target>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="text">
+        <source>Contact</source>
+        <target>اتصل بنا</target>
+      </trans-unit>
+
+      <!-- Footer -->
+      <trans-unit id="footer.copyright" datatype="text">
+        <source>© 2024 NG-AR. All rights reserved.</source>
+        <target>© 2024 تيك كورب. جميع الحقوق محفوظة.</target>
+      </trans-unit>
+      <trans-unit id="footer.tagline" datatype="text">
+        <source>Building the future, one line of code at a time.</source>
+        <target>نبني المستقبل، سطر كود واحد في كل مرة.</target>
+      </trans-unit>
+
+      <!-- Home Page -->
+      <trans-unit id="home.title" datatype="text">
+        <source>Welcome Home</source>
+        <target>مرحباً بكم في الصفحة الرئيسية</target>
+      </trans-unit>
+      <trans-unit id="home.description" datatype="text">
+        <source>This is the home page of our multilingual application. Here you can find the latest updates and news.</source>
+        <target>هذه هي الصفحة الرئيسية لتطبيقنا متعدد اللغات. هنا يمكنكم العثور على آخر التحديثات والأخبار.</target>
+      </trans-unit>
+      <trans-unit id="home.features.title" datatype="text">
+        <source>Our Features</source>
+        <target>مميزاتنا</target>
+      </trans-unit>
+      <trans-unit id="home.features.responsive" datatype="text">
+        <source>Fully responsive design</source>
+        <target>تصميم متجاوب بالكامل</target>
+      </trans-unit>
+      <trans-unit id="home.features.multilingual" datatype="text">
+        <source>Support for multiple languages</source>
+        <target>دعم للغات متعددة</target>
+      </trans-unit>
+      <trans-unit id="home.features.ssr" datatype="text">
+        <source>Server-side rendering for better SEO</source>
+        <target>عرض من جانب الخادم لتحسين محركات البحث</target>
+      </trans-unit>
+      <trans-unit id="home.features.modern" datatype="text">
+        <source>Built with modern Angular framework</source>
+        <target>مبني بإطار عمل أنجولار الحديث</target>
+      </trans-unit>
+      <trans-unit id="home.cta.text" datatype="text">
+        <source>Ready to get started? Visit our about page to learn more!</source>
+        <target>مستعد للبدء؟ زوروا صفحة من نحن لمعرفة المزيد!</target>
+      </trans-unit>
+      <trans-unit id="home.cta.button" datatype="text">
+        <source>Learn More About Us</source>
+        <target>تعرف علينا أكثر</target>
+      </trans-unit>
+
+      <!-- About Page -->
+      <trans-unit id="about.title" datatype="text">
+        <source>About Our Company</source>
+        <target>عن شركتنا</target>
+      </trans-unit>
+      <trans-unit id="about.intro" datatype="text">
+        <source>We are a technology company dedicated to creating innovative solutions for the modern world. Our team consists of passionate developers, designers, and strategists working together to deliver exceptional experiences.</source>
+        <target>نحن شركة تكنولوجيا مكرسة لإنشاء حلول مبتكرة للعالم الحديث. يتكون فريقنا من مطورين ومصممين واستراتيجيين متحمسين يعملون معاً لتقديم تجارب استثنائية.</target>
+      </trans-unit>
+      <trans-unit id="about.mission.title" datatype="text">
+        <source>Our Mission</source>
+        <target>مهمتنا</target>
+      </trans-unit>
+      <trans-unit id="about.mission.description" datatype="text">
+        <source>To empower businesses and individuals through cutting-edge technology solutions that are accessible, reliable, and designed with the user in mind.</source>
+        <target>تمكين الشركات والأفراد من خلال حلول تكنولوجية متطورة تكون متاحة وموثوقة ومصممة مع وضع المستخدم في الاعتبار.</target>
+      </trans-unit>
+      <trans-unit id="about.values.title" datatype="text">
+        <source>Our Values</source>
+        <target>قيمنا</target>
+      </trans-unit>
+      <trans-unit id="about.values.innovation" datatype="text">
+        <source>Innovation</source>
+        <target>الابتكار</target>
+      </trans-unit>
+      <trans-unit id="about.values.innovation.desc" datatype="text">
+        <source>We constantly push boundaries and explore new possibilities.</source>
+        <target>نحن نتخطى الحدود باستمرار ونستكشف إمكانيات جديدة.</target>
+      </trans-unit>
+      <trans-unit id="about.values.quality" datatype="text">
+        <source>Quality</source>
+        <target>الجودة</target>
+      </trans-unit>
+      <trans-unit id="about.values.quality.desc" datatype="text">
+        <source>Excellence in every detail is our standard.</source>
+        <target>التميز في كل التفاصيل هو معيارنا.</target>
+      </trans-unit>
+      <trans-unit id="about.values.collaboration" datatype="text">
+        <source>Collaboration</source>
+        <target>التعاون</target>
+      </trans-unit>
+      <trans-unit id="about.values.collaboration.desc" datatype="text">
+        <source>We believe in the power of working together.</source>
+        <target>نؤمن بقوة العمل الجماعي.</target>
+      </trans-unit>
+      <trans-unit id="about.contact.text" datatype="text">
+        <source>Want to know more about our services?</source>
+        <target>تريد معرفة المزيد عن خدماتنا؟</target>
+      </trans-unit>
+      <trans-unit id="about.contact.button" datatype="text">
+        <source>Contact Us Today</source>
+        <target>اتصل بنا اليوم</target>
+      </trans-unit>
+
+      <!-- Services Page -->
+      <trans-unit id="services.title" datatype="text">
+        <source>Our Services</source>
+        <target>خدماتنا</target>
+      </trans-unit>
+      <trans-unit id="services.intro" datatype="text">
+        <source>We offer a comprehensive range of technology services designed to help your business thrive in the digital age. From web development to mobile applications, we have the expertise to bring your vision to life.</source>
+        <target>نقدم مجموعة شاملة من الخدمات التكنولوجية المصممة لمساعدة عملك على الازدهار في العصر الرقمي. من تطوير المواقع إلى تطبيقات الهاتف المحمول، لدينا الخبرة لتحويل رؤيتك إلى واقع.</target>
+      </trans-unit>
+      <trans-unit id="services.web-development.title" datatype="text">
+        <source>Web Development</source>
+        <target>تطوير المواقع</target>
+      </trans-unit>
+      <trans-unit id="services.web-development.description" datatype="text">
+        <source>Custom websites and web applications built with modern technologies like Angular, React, and Node.js.</source>
+        <target>مواقع مخصصة وتطبيقات ويب مبنية بتقنيات حديثة مثل أنجولار وريأكت ونود.جي إس.</target>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature0" datatype="text">
+        <source>Responsive Design</source>
+        <target>تصميم متجاوب</target>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature1" datatype="text">
+        <source>SEO Optimization</source>
+        <target>تحسين محركات البحث</target>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature2" datatype="text">
+        <source>Performance Optimization</source>
+        <target>تحسين الأداء</target>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature3" datatype="text">
+        <source>Cross-browser Compatibility</source>
+        <target>توافق مع جميع المتصفحات</target>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.title" datatype="text">
+        <source>Mobile Development</source>
+        <target>تطوير تطبيقات الهاتف</target>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.description" datatype="text">
+        <source>Native and cross-platform mobile applications for iOS and Android using Flutter and React Native.</source>
+        <target>تطبيقات هاتف أصلية ومتعددة المنصات لـ iOS و Android باستخدام Flutter و React Native.</target>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature0" datatype="text">
+        <source>Native Performance</source>
+        <target>أداء أصلي</target>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature1" datatype="text">
+        <source>Cross-platform Support</source>
+        <target>دعم متعدد المنصات</target>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature2" datatype="text">
+        <source>App Store Deployment</source>
+        <target>نشر في متجر التطبيقات</target>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature3" datatype="text">
+        <source>Push Notifications</source>
+        <target>إشعارات فورية</target>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.title" datatype="text">
+        <source>UI/UX Design</source>
+        <target>تصميم واجهة المستخدم</target>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.description" datatype="text">
+        <source>Beautiful and intuitive user interfaces designed with user experience as the top priority.</source>
+        <target>واجهات مستخدم جميلة وبديهية مصممة مع وضع تجربة المستخدم كأولوية قصوى.</target>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature0" datatype="text">
+        <source>User Research</source>
+        <target>بحث المستخدم</target>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature1" datatype="text">
+        <source>Wireframing &amp; Prototyping</source>
+        <target>إطار سلكي ونماذج أولية</target>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature2" datatype="text">
+        <source>Visual Design</source>
+        <target>تصميم بصري</target>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature3" datatype="text">
+        <source>Usability Testing</source>
+        <target>اختبار سهولة الاستخدام</target>
+      </trans-unit>
+      <trans-unit id="services.consulting.title" datatype="text">
+        <source>Technical Consulting</source>
+        <target>الاستشارات التقنية</target>
+      </trans-unit>
+      <trans-unit id="services.consulting.description" datatype="text">
+        <source>Expert advice on technology strategy, architecture decisions, and digital transformation.</source>
+        <target>نصائح خبراء حول الاستراتيجية التكنولوجية وقرارات البنية والتحول الرقمي.</target>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature0" datatype="text">
+        <source>Technology Strategy</source>
+        <target>استراتيجية التكنولوجيا</target>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature1" datatype="text">
+        <source>Architecture Review</source>
+        <target>مراجعة البنية</target>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature2" datatype="text">
+        <source>Performance Audit</source>
+        <target>تدقيق الأداء</target>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature3" datatype="text">
+        <source>Best Practices Training</source>
+        <target>تدريب أفضل الممارسات</target>
+      </trans-unit>
+      <trans-unit id="services.starting.from" datatype="text">
+        <source>Starting from</source>
+        <target>ابتداءً من</target>
+      </trans-unit>
+      <trans-unit id="services.consultation.title" datatype="text">
+        <source>Free Consultation</source>
+        <target>استشارة مجانية</target>
+      </trans-unit>
+      <trans-unit id="services.consultation.description" datatype="text">
+        <source>Not sure which service is right for you? Schedule a free consultation with our experts to discuss your needs and find the perfect solution.</source>
+        <target>لست متأكد من الخدمة المناسبة لك؟ احجز استشارة مجانية مع خبرائنا لمناقشة احتياجاتك والعثور على الحل المثالي.</target>
+      </trans-unit>
+      <trans-unit id="services.consultation.contact" datatype="text">
+        <source>Contact Us Now</source>
+        <target>اتصل بنا الآن</target>
+      </trans-unit>
+      <trans-unit id="services.consultation.learn" datatype="text">
+        <source>Learn More About Us</source>
+        <target>تعرف علينا أكثر</target>
+      </trans-unit>
+
+      <!-- Contact Page -->
+      <trans-unit id="contact.title" datatype="text">
+        <source>Contact Us</source>
+        <target>اتصل بنا</target>
+      </trans-unit>
+      <trans-unit id="contact.intro" datatype="text">
+        <source>We'd love to hear from you! Whether you have questions about our services, need support, or want to discuss a potential project, don't hesitate to get in touch.</source>
+        <target>نود أن نسمع منكم! سواء كان لديكم أسئلة حول خدماتنا، تحتاجون للدعم، أو تريدون مناقشة مشروع محتمل، لا تترددوا في التواصل معنا.</target>
+      </trans-unit>
+      <trans-unit id="contact.info.title" datatype="text">
+        <source>Get In Touch</source>
+        <target>تواصل معنا</target>
+      </trans-unit>
+      <trans-unit id="contact.info.phone" datatype="text">
+        <source>Phone</source>
+        <target>الهاتف</target>
+      </trans-unit>
+      <trans-unit id="contact.info.email" datatype="text">
+        <source>Email</source>
+        <target>البريد الإلكتروني</target>
+      </trans-unit>
+      <trans-unit id="contact.info.address" datatype="text">
+        <source>Address</source>
+        <target>العنوان</target>
+      </trans-unit>
+      <trans-unit id="contact.info.address.value" datatype="text">
+        <source>123 Technology Street, Amman, Jordan</source>
+        <target>شارع التكنولوجيا ١٢٣، عمان، الأردن</target>
+      </trans-unit>
+      <trans-unit id="contact.info.hours" datatype="text">
+        <source>Business Hours</source>
+        <target>ساعات العمل</target>
+      </trans-unit>
+      <trans-unit id="contact.info.hours.value" datatype="text">
+        <source>Sunday - Thursday: 9:00 AM - 6:00 PM</source>
+        <target>الأحد - الخميس: ٩:٠٠ صباحاً - ٦:٠٠ مساءً</target>
+      </trans-unit>
+      <trans-unit id="contact.info.hours.weekend" datatype="text">
+        <source>Friday - Saturday: Closed</source>
+        <target>الجمعة - السبت: مغلق</target>
+      </trans-unit>
+      <trans-unit id="contact.form.title" datatype="text">
+        <source>Send us a Message</source>
+        <target>أرسل لنا رسالة</target>
+      </trans-unit>
+      <trans-unit id="contact.form.name" datatype="text">
+        <source>Your Name</source>
+        <target>اسمك</target>
+      </trans-unit>
+      <trans-unit id="contact.form.name.placeholder" datatype="text">
+        <source>Enter your full name</source>
+        <target>أدخل اسمك الكامل</target>
+      </trans-unit>
+      <trans-unit id="contact.form.email" datatype="text">
+        <source>Email Address</source>
+        <target>عنوان البريد الإلكتروني</target>
+      </trans-unit>
+      <trans-unit id="contact.form.email.placeholder" datatype="text">
+        <source>Enter your email address</source>
+        <target>أدخل عنوان بريدك الإلكتروني</target>
+      </trans-unit>
+      <trans-unit id="contact.form.subject" datatype="text">
+        <source>Subject</source>
+        <target>الموضوع</target>
+      </trans-unit>
+      <trans-unit id="contact.form.subject.placeholder" datatype="text">
+        <source>What is this about?</source>
+        <target>ما هو الموضوع؟</target>
+      </trans-unit>
+      <trans-unit id="contact.form.message" datatype="text">
+        <source>Message</source>
+        <target>الرسالة</target>
+      </trans-unit>
+      <trans-unit id="contact.form.message.placeholder" datatype="text">
+        <source>Tell us more about your inquiry...</source>
+        <target>أخبرنا المزيد عن استفسارك...</target>
+      </trans-unit>
+      <trans-unit id="contact.form.submit" datatype="text">
+        <source>Send Message</source>
+        <target>إرسال الرسالة</target>
+      </trans-unit>
+      <trans-unit id="contact.back.about" datatype="text">
+        <source>← Back to About</source>
+        <target>← العودة إلى من نحن</target>
+      </trans-unit>
+      <trans-unit id="contact.back.home" datatype="text">
+        <source>← Back to Home</source>
+        <target>← العودة إلى الرئيسية</target>
       </trans-unit>
     </body>
   </file>

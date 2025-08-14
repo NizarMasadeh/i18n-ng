@@ -1,0 +1,10 @@
+services:
+  ng-ar:
+    build:
+      context: .
+      target: production
+      dockerfile: dockerfile
+    container_name: ng-ar_app
+    ports:
+      - "8070:8070"
+    restart: unless-stopped

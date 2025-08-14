@@ -2,18 +2,604 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="welcomeMessage" datatype="html">
-        <source>Welcome to Our Multilingual App</source>
+      <trans-unit id="switchToArabic" datatype="html">
+        <source> العربية </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="switchToEnglish" datatype="html">
+        <source> English </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.brand" datatype="html">
+        <source>NG-AR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.home" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.services" datatype="html">
+        <source>Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">22,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.copyright" datatype="html">
+        <source>© 2024 NG-AR. All rights reserved.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.tagline" datatype="html">
+        <source>Building the future, one line of code at a time.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.title" datatype="html">
+        <source>About Our Company</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.intro" datatype="html">
+        <source> We are a technology company dedicated to creating innovative solutions for the modern world. Our team consists of passionate developers, designers, and strategists working together to deliver exceptional experiences. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.mission.title" datatype="html">
+        <source>Our Mission</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.mission.description" datatype="html">
+        <source> To empower businesses and individuals through cutting-edge technology solutions that are accessible, reliable, and designed with the user in mind. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.title" datatype="html">
+        <source>Our Values</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.innovation" datatype="html">
+        <source>Innovation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.innovation.desc" datatype="html">
+        <source>We constantly push boundaries and explore new possibilities. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.quality" datatype="html">
+        <source>Quality</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.quality.desc" datatype="html">
+        <source>Excellence in every detail is our standard.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.collaboration" datatype="html">
+        <source>Collaboration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.collaboration.desc" datatype="html">
+        <source>We believe in the power of working together.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">34,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.contact.text" datatype="html">
+        <source>Want to know more about our services?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.contact.button" datatype="html">
+        <source>Contact Us Today</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">41,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.title" datatype="html">
+        <source>Contact Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.intro" datatype="html">
+        <source> We&apos;d love to hear from you! Whether you have questions about our services, need support, or want to discuss a potential project, don&apos;t hesitate to get in touch. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.title" datatype="html">
+        <source>Get In Touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.phone" datatype="html">
+        <source>Phone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.email" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.address" datatype="html">
+        <source>Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.address.value" datatype="html">
+        <source>123 Technology Street, Amman, Jordan</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.hours" datatype="html">
+        <source>Business Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.hours.value" datatype="html">
+        <source>Sunday - Thursday: 9:00 AM - 6:00 PM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.info.hours.weekend" datatype="html">
+        <source>Friday - Saturday: Closed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">33,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.title" datatype="html">
+        <source>Send us a Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">38,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.name" datatype="html">
+        <source>Your Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.name.placeholder" datatype="html">
+        <source>Enter your full name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">44,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.email" datatype="html">
+        <source>Email Address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.email.placeholder" datatype="html">
+        <source>Enter your email address</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">50,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.subject" datatype="html">
+        <source>Subject</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.subject.placeholder" datatype="html">
+        <source>What is this about?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">56,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.message" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.message.placeholder" datatype="html">
+        <source>Tell us more about your inquiry...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">63,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.form.submit" datatype="html">
+        <source> Send Message </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.back.about" datatype="html">
+        <source>← Back to About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.back.home" datatype="html">
+        <source>← Back to Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">76,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.title" datatype="html">
+        <source>Welcome Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="description" datatype="html">
-        <source> This is a simple Angular application with server-side rendering and support for English and Arabic languages. </source>
+      <trans-unit id="home.description" datatype="html">
+        <source> This is the home page of our multilingual application. Here you can find the latest updates and news. </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
           <context context-type="linenumber">4,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.title" datatype="html">
+        <source>Our Features</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.responsive" datatype="html">
+        <source>Fully responsive design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.multilingual" datatype="html">
+        <source>Support for multiple languages</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.ssr" datatype="html">
+        <source>Server-side rendering for better SEO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.features.modern" datatype="html">
+        <source>Built with modern Angular framework</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">13,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.text" datatype="html">
+        <source>Ready to get started? Visit our about page to learn more!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.button" datatype="html">
+        <source>Learn More About Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.title" datatype="html">
+        <source>Our Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.intro" datatype="html">
+        <source> We offer a comprehensive range of technology services designed to help your business thrive in the digital age. From web development to mobile applications, we have the expertise to bring your vision to life. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web-development.title" datatype="html">
+        <source>Web Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web-development.description" datatype="html">
+        <source> Custom websites and web applications built with modern technologies like Angular, React, and Node.js. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature0" datatype="html">
+        <source>Responsive Design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature1" datatype="html">
+        <source>SEO Optimization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature2" datatype="html">
+        <source>Performance Optimization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web-development.feature3" datatype="html">
+        <source>Cross-browser Compatibility</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.starting.from" datatype="html">
+        <source>Starting from</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.title" datatype="html">
+        <source>Mobile Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.description" datatype="html">
+        <source> Native and cross-platform mobile applications for iOS and Android using Flutter and React Native. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature0" datatype="html">
+        <source>Native Performance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature1" datatype="html">
+        <source>Cross-platform Support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature2" datatype="html">
+        <source>App Store Deployment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile-development.feature3" datatype="html">
+        <source>Push Notifications</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.title" datatype="html">
+        <source>UI/UX Design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.description" datatype="html">
+        <source> Beautiful and intuitive user interfaces designed with user experience as the top priority. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">56,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature0" datatype="html">
+        <source>User Research</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature1" datatype="html">
+        <source>Wireframing &amp; Prototyping</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature2" datatype="html">
+        <source>Visual Design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.ui-ux-design.feature3" datatype="html">
+        <source>Usability Testing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">62,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consulting.title" datatype="html">
+        <source>Technical Consulting</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consulting.description" datatype="html">
+        <source> Expert advice on technology strategy, architecture decisions, and digital transformation. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">75,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature0" datatype="html">
+        <source>Technology Strategy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature1" datatype="html">
+        <source>Architecture Review</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature2" datatype="html">
+        <source>Performance Audit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consulting.feature3" datatype="html">
+        <source>Best Practices Training</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">81,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consultation.title" datatype="html">
+        <source>Free Consultation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consultation.description" datatype="html">
+        <source> Not sure which service is right for you? Schedule a free consultation with our experts to discuss your needs and find the perfect solution. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">93,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consultation.contact" datatype="html">
+        <source>Contact Us Now</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.consultation.learn" datatype="html">
+        <source>Learn More About Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">98,101</context>
         </context-group>
       </trans-unit>
     </body>

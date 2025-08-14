@@ -1,0 +1,78 @@
+<div class="page-content">
+    <h1 i18n="@@contact.title">Contact Us</h1>
+
+    <div class="contact-intro">
+        <p i18n="@@contact.intro">
+            We'd love to hear from you! Whether you have questions about our services, need support,
+            or want to discuss a potential project, don't hesitate to get in touch.
+        </p>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2 i18n="@@contact.info.title">Get In Touch</h2>
+
+            <div class="info-item">
+                <h3 i18n="@@contact.info.phone">Phone</h3>
+                <p>+962 6 123 4567</p>
+            </div>
+
+            <div class="info-item">
+                <h3 i18n="@@contact.info.email">Email</h3>
+                <p>hello&#64;company.com</p>
+            </div>
+
+            <div class="info-item">
+                <h3 i18n="@@contact.info.address">Address</h3>
+                <p i18n="@@contact.info.address.value">123 Technology Street, Amman, Jordan</p>
+            </div>
+
+            <div class="info-item">
+                <h3 i18n="@@contact.info.hours">Business Hours</h3>
+                <p i18n="@@contact.info.hours.value">Sunday - Thursday: 9:00 AM - 6:00 PM</p>
+                <p i18n="@@contact.info.hours.weekend">Friday - Saturday: Closed</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2 i18n="@@contact.form.title">Send us a Message</h2>
+
+            <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                <div class="form-group">
+                    <label for="name" i18n="@@contact.form.name">Your Name</label>
+                    <input type="text" id="name" name="name" [(ngModel)]="formData.name" required
+                        i18n-placeholder="@@contact.form.name.placeholder" placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" i18n="@@contact.form.email">Email Address</label>
+                    <input type="email" id="email" name="email" [(ngModel)]="formData.email" required
+                        i18n-placeholder="@@contact.form.email.placeholder" placeholder="Enter your email address">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject" i18n="@@contact.form.subject">Subject</label>
+                    <input type="text" id="subject" name="subject" [(ngModel)]="formData.subject" required
+                        i18n-placeholder="@@contact.form.subject.placeholder" placeholder="What is this about?">
+                </div>
+
+                <div class="form-group">
+                    <label for="message" i18n="@@contact.form.message">Message</label>
+                    <textarea id="message" name="message" [(ngModel)]="formData.message" required rows="5"
+                        i18n-placeholder="@@contact.form.message.placeholder"
+                        placeholder="Tell us more about your inquiry..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary" [disabled]="!contactForm.form.valid"
+                    i18n="@@contact.form.submit">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="back-navigation">
+        <a routerLink="/about" i18n="@@contact.back.about">← Back to About</a>
+        <a routerLink="/home" i18n="@@contact.back.home">← Back to Home</a>
+    </div>
+</div>

@@ -1,6 +1,34 @@
 <div class="container">
-  <h1 i18n="@@welcomeMessage">Welcome to Our Multilingual App</h1>
-  <p i18n="@@description">
-    This is a simple Angular application with server-side rendering and support for English and Arabic languages.
-  </p>
+  <div class="language-switcher">
+    @if (!isCurrentLocale('ar-JO')) {
+    <button (click)="switchLanguage('ar-JO')" class="lang-btn" i18n="@@switchToArabic">
+      العربية
+    </button>
+    } @else if(!isCurrentLocale('en-US')) {
+    <button (click)="switchLanguage('en-US')" class="lang-btn" i18n="@@switchToEnglish">
+      English
+    </button>
+    }
+  </div>
+
+  <nav class="main-nav">
+    <div class="nav-brand">
+      <a routerLink="/home" i18n="@@nav.brand">NG-AR</a>
+    </div>
+    <ul class="nav-menu">
+      <li><a routerLink="/home" routerLinkActive="active" i18n="@@nav.home">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" i18n="@@nav.about">About</a></li>
+      <li><a routerLink="/services" routerLinkActive="active" i18n="@@nav.services">Services</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" i18n="@@nav.contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-content" [@routeAnimations]="animationState">
+    <router-outlet #outlet="outlet" (activate)="prepareRoute(outlet)"></router-outlet>
+  </main>
+
+  <footer class="main-footer">
+    <p i18n="@@footer.copyright">© 2024 NG-AR. All rights reserved.</p>
+    <p i18n="@@footer.tagline">Building the future, one line of code at a time.</p>
+  </footer>
 </div>
