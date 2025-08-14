@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="ar">
+    <body>
+      <trans-unit id="welcomeMessage" datatype="text">
+        <source>Welcome to Our Multilingual App</source>
+        <target>مرحبًا بكم في تطبيقنا متعدد اللغات</target>
+      </trans-unit>
+      <trans-unit id="description" datatype="text">
+        <source>This is a simple Angular application with server-side rendering and support for English and Arabic languages.</source>
+        <target>هذا تطبيق أنجولار بسيط مع تقديم من جانب الخادم ودعم للغة الإنجليزية والعربية.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

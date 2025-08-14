@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    font-family: Arial, sans-serif;
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+
+        :host[dir="rtl"] & {
+            text-align: right;
+        }
+    }
+}

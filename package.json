@@ -5,9 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration=production --output-path=./dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:i18n": "node dist/i18n/server/server.mjs"
+    "serve:ssr:i18n": "node dist/i18n/server/server.mjs",
+    "start:prod": "node dist/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +30,7 @@
     "@angular/build": "^20.0.3",
     "@angular/cli": "^20.0.3",
     "@angular/compiler-cli": "^20.0.0",
+    "@angular/localize": "^20.0.5",
     "@types/express": "^5.0.1",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^20.17.19",

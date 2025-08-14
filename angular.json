@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "i18n": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "ar-JO": "src/locale/messages.ar.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -19,7 +25,8 @@
           "options": {
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -40,6 +47,7 @@
           },
           "configurations": {
             "production": {
+              "localize": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -55,9 +63,18 @@
               "outputHashing": "all"
             },
             "development": {
+              "localize": [
+                "en-US"
+              ],
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "ar-JO": {
+              "localize": [
+                "ar-JO"
+              ],
+              "outputPath": "dist/ar-JO"
             }
           },
           "defaultConfiguration": "production"
@@ -70,6 +87,9 @@
             },
             "development": {
               "buildTarget": "i18n:build:development"
+            },
+            "ar-JO": {
+              "buildTarget": "i18n:build:ar-JO"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +102,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
