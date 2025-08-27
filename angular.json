@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "i18n-ng": {
+    "i18n-ng-ssr": {
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
@@ -128,13 +128,13 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "i18n:build:production"
+              "buildTarget": "i18n-ng-ssr:build:production"
             },
             "development": {
-              "buildTarget": "i18n:build:development"
+              "buildTarget": "i18n-ng-ssr:build:development"
             },
             "ar-JO": {
-              "buildTarget": "i18n:build:ar-JO"
+              "buildTarget": "i18n-ng-ssr:build:ar-JO"
             }
           },
           "defaultConfiguration": "development"
